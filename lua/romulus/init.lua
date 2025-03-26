@@ -2,7 +2,7 @@ local M = {}
 
 local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
 
-parser_config.myparser = {
+parser_config.romulus = {
   install_info = {
     url = "SergeyDPol/tree-sitter-romulus",
     files = { "src/parser.c" },
