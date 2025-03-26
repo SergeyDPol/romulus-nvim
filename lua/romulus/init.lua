@@ -18,4 +18,6 @@ vim.filetype.add({
   },
 })
 
+vim.treesitter.language.register('romulus', 'roma')
+
 return M
