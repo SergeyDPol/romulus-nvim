@@ -1,5 +1,7 @@
 local M = {}
 
+function M.setup()
+
 local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
 
 parser_config.romulus = {
@@ -19,5 +21,7 @@ vim.filetype.add({
 })
 
 vim.treesitter.language.register('romulus', 'roma')
+
+end
 
 return M
