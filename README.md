@@ -6,5 +6,6 @@ Put this in your lazy.nvim configuration:
 {
   "SergeyDPol/romulus-nvim",
   dependencies = { "nvim-treesitter/nvim-treesitter" },
+  opts={},
 }
 ```
