@@ -1,8 +1,5 @@
 ;; highlights.scm
 [
-  "Sinon"
-  "Munus"
-  "As"
   "+"
   "-"
   "*"
@@ -11,6 +8,12 @@
   "="
   "("
   ")"
+] @operator
+
+[
+  "Sinon"
+  "Munus"
+  "As"
 ] @keyword
 
 ;; Built-in functions
@@ -35,6 +38,5 @@
 ;; Numbers
 (number) @number
 
-;; Punctuation (optional - remove if you want them as keywords)
 "(" @punctuation.bracket
 ")" @punctuation.bracket
