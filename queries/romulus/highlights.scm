@@ -19,6 +19,7 @@
 ;; Built-in functions
 (print_statement "Grafo" @function.builtin)
 (variable_definition "Anagnosti" @function.builtin)
+(assignment_statement "Anagnosti" @function.builtin)
 
 ;; Variables
 (variable_definition
