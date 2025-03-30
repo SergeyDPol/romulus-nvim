@@ -1,1 +1,1 @@
-autocmd BufRead, BufNewFile *.roma set filetype=roma
+autocmd BufRead,BufNewFile *.roma set filetype=roma
