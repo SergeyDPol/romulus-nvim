@@ -3,6 +3,11 @@ local M = {}
 function M.setup()
 
 local parser_config = require("nvim-treesitter.parsers").get_parser_configs()
+require("nvim-treesitter.configs").setup({
+	highlight = {
+		enable = true,
+	},
+})
 
 parser_config.romulus = {
   install_info = {
